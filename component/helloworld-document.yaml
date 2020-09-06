@@ -10,6 +10,7 @@ phases:
         inputs:
           commands:
               - sudo apt-get update 
+                sudo apt-get install nginx
 
   - name: validate
     steps:
